@@ -23,5 +23,20 @@ module.exports = [
     userId: 2,
     viewDate: "2020-11-23",
     productId: 2
+  },
+  {
+    userId: 5,
+    viewDate: "2020-10-22",
+    productId: 2
+  },
+  {
+    userId: 5,
+    viewDate: "2020-10-22",
+    productId: 2
+  },
+  {
+    userId: 6,
+    viewDate: "2020-10-23",
+    productId: 2
   }
 ];

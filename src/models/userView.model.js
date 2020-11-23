@@ -26,6 +26,8 @@ const userViewSchema = mongoose.Schema(
 userViewSchema.plugin(toJSON);
 userViewSchema.plugin(paginate);
 
+userViewSchema.index({ viewDate: 1 });
+
 /**
  * @typedef User
  */
